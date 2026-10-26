@@ -114,3 +114,10 @@ main {
 #projects article p {
   line-height: 1.8;
 }
+
+/* 自己紹介の文章のデザイン */
+#about p {
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 20px;
+}
