@@ -33,3 +33,26 @@ nav a {
 nav a:hover {
   color: #888888;
 }
+
+/* 見出しを中央揃えにする */
+h1, h2, h3 {
+  text-align: center;
+}
+
+/* 本文は左揃えにする */
+p {
+  text-align: left;
+  line-height: 1.8;
+}
+
+/* ナビゲーションは中央揃え */
+nav {
+  justify-content: center;
+}
+
+/* スキル一覧の配置を整える */
+#skills ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
