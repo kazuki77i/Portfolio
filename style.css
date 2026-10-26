@@ -100,3 +100,17 @@ nav {
 #projects a:hover {
   text-decoration: underline;
 }
+
+/* メインコンテンツの横幅と余白を調整
+後で修正する！！！！*/
+main {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+/* カード内の文章を読みやすくする */
+#projects article p {
+  line-height: 1.8;
+}
