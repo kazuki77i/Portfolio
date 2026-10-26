@@ -121,3 +121,29 @@ main {
   line-height: 1.9;
   margin-bottom: 20px;
 }
+
+/* スマートフォン向けのデザイン調整 */
+@media (max-width: 600px) {
+
+  /* メインコンテンツの左右の余白 */
+  main {
+    padding: 30px 24px;
+  }
+
+  /* 自己紹介文の文字サイズと行間 */
+  #about p {
+    font-size: 14px;
+    line-height: 1.9;
+    margin-bottom: 24px;
+  }
+
+  /* 見出しの文字サイズ */
+  h2 {
+    font-size: 24px;
+  }
+
+  /* 制作実績カードの余白 */
+  #projects article {
+    padding: 20px;
+  }
+}
