@@ -56,3 +56,20 @@ nav {
   padding: 0;
   text-align: center;
 }
+
+/* Skillsの一覧を横並びにする */
+#skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Skillsの各項目をタグ型にする */
+#skills li {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 14px;
+}
