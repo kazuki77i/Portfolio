@@ -1,1 +1,7 @@
-
+/* ページ全体の基本設定 */
+body {
+  background-color: #f8f9fa;
+  color: #222222;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
