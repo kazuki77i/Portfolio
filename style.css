@@ -206,3 +206,26 @@ footer p {
 html {
   scroll-behavior: smooth;
 }
+
+/* ページ上部に戻るボタン */
+#back-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background-color: #222222;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+
+  /* 最初は非表示 */
+  display: none;
+}
+
+/* JavaScriptでクラスを追加すると表示 */
+#back-to-top.show {
+  display: block;
+}
