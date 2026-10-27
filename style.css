@@ -229,3 +229,49 @@ html {
 #back-to-top.show {
   display: block;
 }
+
+/* スマートフォン向けのデザイン */
+@media (max-width: 600px) {
+
+  /* ヘッダーの余白を調整 */
+  header {
+    padding: 20px 16px;
+  }
+
+  /* タイトルの文字サイズ */
+  header h1 {
+    font-size: 28px;
+  }
+
+  /* ナビゲーションの文字サイズ */
+  nav a {
+    font-size: 14px;
+  }
+
+  /* メイン部分の余白 */
+  main {
+    padding: 24px 16px;
+  }
+
+  /* 見出しの文字サイズ */
+  section h2 {
+    font-size: 26px;
+  }
+
+  /* 文章の文字サイズ */
+  section p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  /* 制作実績カードの余白 */
+  #projects article {
+    padding: 24px 20px;
+  }
+
+  /* 上に戻るボタンの位置 */
+  #back-to-top {
+    bottom: 20px;
+    right: 16px;
+  }
+}
