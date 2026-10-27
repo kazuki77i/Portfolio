@@ -166,3 +166,21 @@ main {
   display: inline-block;
   margin-top: 16px;
 }
+
+/* Contactのリンクをボタン風にする */
+#contact a {
+  display: inline-block;
+  background-color: #222222;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+/* マウスを重ねたとき */
+#contact a:hover {
+  background-color: #555555;
+}
