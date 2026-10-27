@@ -184,3 +184,20 @@ main {
 #contact a:hover {
   background-color: #555555;
 }
+
+/* ページ最下部のフッター */
+footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 24px 20px;
+  margin-top: 40px;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* フッターの文字 */
+footer p {
+  text-align: center;
+  font-size: 12px;
+  color: #777777;
+  margin: 0;
+}
