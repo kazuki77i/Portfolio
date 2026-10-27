@@ -201,3 +201,8 @@ footer p {
   color: #777777;
   margin: 0;
 }
+
+/* ページ内リンクの移動を滑らかにする */
+html {
+  scroll-behavior: smooth;
+}
