@@ -7,7 +7,7 @@ Webアプリケーション開発の学習内容や、これまでの制作実�
 https://kazuki77i.github.io/Portfolio/
 
 ## 使用技術
-- HTaML5：ページの構造作成
+- HTML5：ページの構造作成
 - CSS3：デザイン・レスポンシブ対応
 - JavaScript：スクロール操作の実装
 - Git / GitHub：ソースコード管理
