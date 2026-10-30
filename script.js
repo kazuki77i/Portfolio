@@ -16,13 +16,18 @@ window.addEventListener("scroll", function () {
 
 });
 
-// ボタンをクリックしたときの処理
+/* ページ上部に戻るボタンをクリックしたときの処理 */
 backToTopButton.addEventListener("click", function () {
 
-  // ページの一番上に滑らかに戻る
+  // ユーザーがアニメーションを減らす設定を有効にしているか確認
+  const reduceMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+  ).matches;
+
+  // 設定に応じてスクロール方法を切り替える
   window.scrollTo({
     top: 0,
-    behavior: "smooth"
+    behavior: reduceMotion ? "instant" : "smooth"
   });
 
 });
