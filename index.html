@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8"> <!-- 日本語を正しく表示する -->
   <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <!-- CSSファイルを読み込む -->
-<link rel="stylesheet" href="style.css">
+        content="width=device-width, initial-scale=1.0"> <!-- スマートフォンの画面幅に合わせる -->
+  
+  <!-- 検索エンジンにページの内容を伝える -->
+<meta name="description"
+  content="Java・Spring Bootを中心にWebアプリケーション開発を学習しています。
+  制作実績や使用技術を紹介するポートフォリオサイトです。">
+  
+  <title>Portfolio | Webアプリケーション開発</title> <!-- ブラウザのタブに表示されるタイトル -->
+  
+<link rel="stylesheet" href="style.css"> <!-- CSSファイルを読み込む -->
 </head>
 
 <body>
-  <header>  <!-- ページ上部 -->
+<header>  <!-- ページ上部 -->
   <h1>My Portfolio</h1>
 
-  <nav>  <!-- ナビゲーション -->
+  <nav aria-label="メインナビゲーション">  <!-- ナビゲーション -->
     <a href="#about">About Me</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
@@ -110,10 +116,16 @@
     以下のリンクからお願いします。
   </p>
 
+  <!-- メールアプリを開くリンク -->
+  <a href="mailto:kazuki12737@gmail.com">
+    メールでお問い合わせ
+
+  <!-- GitHubプロフィールへのリンク -->
   <a href="https://github.com/kazuki77i"
      target="_blank"
      rel="noopener noreferrer">
     GitHubプロフィールを見る
+    
   </a>
 </section>
       
