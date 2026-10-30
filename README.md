@@ -35,10 +35,3 @@ https://github.com/kazuki77i/Reservation-Manager
 今後の改善予定
 制作実績の追加
 デザインや操作性の継続的な改善
-Portfolio | Webアプリケーション開発
-Java・Spring Bootを中心にWebアプリケーション開発を学習しています。
-制作実績や使用技術を紹介するポートフォリオサイトです。
-GitHub
-GitHub - kazuki77i/Reservation-Manager
-Contribute to kazuki77i/Reservation-Manager development by creating an account on GitHub.
-Contribute to kazuki77i/Reservation-Manager development by creating an account on GitHub.
