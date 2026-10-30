@@ -265,4 +265,14 @@ html {
     bottom: 20px;
     right: 16px;
   }
+
+  /* Contactのリンクを縦に並べる */
+#contact a {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+  
 }
