@@ -274,5 +274,19 @@ html {
   box-sizing: border-box;
   margin-bottom: 16px;
 }
-  
+  }
+
+/* キーボード操作中のリンクやボタンを見やすく */
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 4px;
 }
+
+/* 動きを減らす設定を利用している人へ */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
