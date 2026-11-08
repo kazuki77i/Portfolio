@@ -113,8 +113,9 @@ main {
   box-sizing: border-box;
 }
 
-/* カード内の文章を読みやすくする */
+/* 制作実績カード内の説明文 */
 #projects article p {
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -130,12 +131,6 @@ main {
   font-size: 15px;
   margin-top: 24px;
   margin-bottom: 8px;
-}
-
-/* 制作実績の説明文 */
-#projects article p {
-  font-size: 14px;
-  line-height: 1.8;
 }
 
 /* GitHubリンクと説明文の間隔 */
