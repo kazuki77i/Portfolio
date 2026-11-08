@@ -290,3 +290,90 @@ button:focus-visible {
   }
 }
 
+
+/* ===================================
+   Skills セクション
+=================================== */
+
+/* スキルのカテゴリー見出し */
+#skills h3 {
+  font-size: 17px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: #333333;
+}
+
+/* スキルタグの配置 */
+#skills ul {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+/* スキルタグ */
+#skills li {
+  transition: background-color 0.2s ease;
+}
+
+/* スキルタグにマウスを重ねたとき */
+#skills li:hover {
+  background-color: #f1f3f5;
+}
+
+/* スキルの補足説明 */
+#skills p {
+  max-width: 700px;
+  margin: 24px auto 0;
+  color: #666666;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+/* ===================================
+   Projects セクション
+=================================== */
+
+/* 作品カードの共通設定 */
+#projects article {
+  box-sizing: border-box;
+  min-width: 0;
+  margin-top: 0;
+  transition: box-shadow 0.2s ease;
+}
+
+/* マウスを重ねたときの影 */
+#projects article:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* カード内のリスト */
+#projects article ul {
+  padding-left: 20px;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+/* PCでは作品を2列表示 */
+@media (min-width: 768px) {
+  #projects .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+}
+
+/* スマートフォンでは縦並び */
+@media (max-width: 767px) {
+  #projects .project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+/* 動きを減らす設定への対応 */
+@media (prefers-reduced-motion: reduce) {
+  #skills li,
+  #projects article {
+    transition: none;
+  }
+}
