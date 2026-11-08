@@ -54,15 +54,12 @@ p {
   line-height: 1.8;
 }
 
-/* スキル一覧の配置を整える */
+
+/* Skillsの一覧をタグ型で横並びにする */
 #skills ul {
   list-style: none;
   padding: 0;
   text-align: center;
-}
-
-/* Skillsの一覧を横並びにする */
-#skills ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
