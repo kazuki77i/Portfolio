@@ -6,6 +6,15 @@ body {
   margin: 0;
 }
 
+
+/* ページ上部のヘッダー */
+header {
+  background-color: #ffffff;
+  padding: 32px 24px 24px;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+}
+
 /* サイトのタイトル */
 header h1 {
   font-size: 28px;
@@ -43,11 +52,6 @@ h1, h2, h3 {
 p {
   text-align: left;
   line-height: 1.8;
-}
-
-/* ナビゲーションは中央揃え */
-nav {
-  justify-content: center;
 }
 
 /* スキル一覧の配置を整える */
