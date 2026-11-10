@@ -59,6 +59,8 @@ p {
 #skills ul {
   list-style: none;
   padding: 0;
+  margin-top: 0;
+  margin-bottom: 24px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -288,7 +290,6 @@ button:focus-visible {
   }
 }
 
-
 /* ===================================
    Skills セクション
 =================================== */
@@ -299,12 +300,6 @@ button:focus-visible {
   margin-top: 32px;
   margin-bottom: 16px;
   color: #333333;
-}
-
-/* スキルタグの配置 */
-#skills ul {
-  margin-top: 0;
-  margin-bottom: 24px;
 }
 
 /* スキルタグ */
