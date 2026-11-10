@@ -81,7 +81,9 @@ p {
   border: 1px solid #e5e5e5;
   border-radius: 12px;
   padding: 24px;
-  margin-top: 24px;
+  box-sizing: border-box;
+  min-width: 0;
+  transition: box-shadow 0.2s ease;
 }
 
 /* カード内のタイトル */
@@ -327,14 +329,6 @@ button:focus-visible {
 /* ===================================
    Projects セクション
 =================================== */
-
-/* 作品カードの共通設定 */
-#projects article {
-  box-sizing: border-box;
-  min-width: 0;
-  margin-top: 0;
-  transition: box-shadow 0.2s ease;
-}
 
 /* マウスを重ねたときの影 */
 #projects article:hover {
